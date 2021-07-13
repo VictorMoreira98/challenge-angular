@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.parts {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 33%;
+}
+
+.container-part-one {
+    background-color: #F8C9CE;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-part-two {
+    background-color: #FFE2D6;
+}
+
+.container-part-three {
+    background-color: #FFFFEB;
+}
