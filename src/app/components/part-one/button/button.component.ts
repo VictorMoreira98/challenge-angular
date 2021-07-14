@@ -6,7 +6,7 @@ import { PartOneService } from 'src/app/shared/services/part-one/part-one.servic
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css']
 })
-export class ButtonComponent implements OnInit {
+export class ButtonComponentOne implements OnInit {
 
   constructor(private partOneService: PartOneService) { }
 

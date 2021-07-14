@@ -3,6 +3,10 @@
         <app-label-one></app-label-one>
         <app-button-one></app-button-one>
     </div>
-    <div class="parts container-part-two"></div>
+    <div class="parts container-part-two">
+        <app-image-two [receiveBoolImage]="boolImage"></app-image-two>
+        <app-label-two [receiveBoolImage]="boolImage"></app-label-two>
+        <app-button-two (eventHideImage)="receiverFeedback($event)"></app-button-two>
+    </div>
     <div class="parts container-part-three"></div>
 </div>

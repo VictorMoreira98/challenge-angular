@@ -6,15 +6,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TitleComponent } from './core/title/title.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ButtonComponent } from './components/part-one/button/button.component';
-import { LabelComponent } from './components/part-one/label/label.component';
+import { ButtonComponentOne } from './components/part-one/button/button.component';
+import { LabelComponentOne } from './components/part-one/label/label.component';
+import { ImageComponentTwo } from './components/part-two/image/image.component';
+import { ButtonComponentTwo } from './components/part-two/button/button.component';
+import { LabelComponentTwo } from './components/part-two/label/label.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleComponent,
-    ButtonComponent,
-    LabelComponent
+    ButtonComponentOne,
+    ButtonComponentTwo,
+    LabelComponentOne,
+    LabelComponentTwo,
+    ImageComponentTwo
   ],
   imports: [
     BrowserModule,

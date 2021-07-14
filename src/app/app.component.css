@@ -21,6 +21,9 @@
 
 .container-part-two {
     background-color: #FFE2D6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-part-three {

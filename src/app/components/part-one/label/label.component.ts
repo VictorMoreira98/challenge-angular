@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './label.component.html',
   styleUrls: ['./label.component.css']
 })
-export class LabelComponent implements OnInit {
+export class LabelComponentOne implements OnInit {
 
   constructor(public partOneService: PartOneService) { }
 

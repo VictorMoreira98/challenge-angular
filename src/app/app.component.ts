@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'challenge-angular';
+  boolImage = true
+
+  receiverFeedback(event) {
+    this.boolImage = !this.boolImage
+  }
 }
