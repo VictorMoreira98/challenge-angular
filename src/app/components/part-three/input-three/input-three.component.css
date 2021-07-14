@@ -1,0 +1,10 @@
+input {
+    border: brown solid 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

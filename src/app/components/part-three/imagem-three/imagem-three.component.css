@@ -1,0 +1,23 @@
+img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container-buttons-actions {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}

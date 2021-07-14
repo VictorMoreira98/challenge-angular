@@ -12,18 +12,20 @@
     height: 33%;
 }
 
-.container-part-one {
-    background-color: #F8C9CE;
+.container-part-one,
+.container-part-two,
+.container-part-three {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.container-part-one {
+    background-color: #F8C9CE;
+}
+
 .container-part-two {
     background-color: #FFE2D6;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-part-three {
