@@ -22,4 +22,12 @@ describe('ImageComponentTwo', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should hidden image when receiveBoolImage equal false', () => {
+    const img = fixture.debugElement.nativeElement.querySelector('.img-alternate');
+    component.receiveBoolImage = false;
+    fixture.detectChanges();
+    expect(img.hasAttribute('hidden')).toEqual(true);
+  });
+
 });

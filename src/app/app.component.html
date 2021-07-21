@@ -1,14 +1,17 @@
 <div class="container">
     <div class="parts container-part-one">
+        <h1>Calculadora Fibonacci</h1>
         <app-label-one></app-label-one>
         <app-button-one></app-button-one>
     </div>
     <div class="parts container-part-two">
+        <h1>Alternar Imagem</h1>
         <app-image-two [receiveBoolImage]="boolImage"></app-image-two>
         <app-label-two [receiveBoolImage]="boolImage"></app-label-two>
         <app-button-two (eventHideImage)="receiverFeedback($event)"></app-button-two>
     </div>
     <div class="parts container-part-three">
+        <h1>Filtrar Array</h1>
         <app-label-three></app-label-three>
         <app-input-three></app-input-three>
     </div>

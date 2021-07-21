@@ -11,8 +11,6 @@ export class LabelComponentOne implements OnInit {
   constructor(public partOneService: PartOneService) { }
 
   ngOnInit(): void {
-    this.partOneService.arrNumbersFibonacci.push(1)
-    console.log(this.partOneService.arrNumbersFibonacci)
   }
 
 

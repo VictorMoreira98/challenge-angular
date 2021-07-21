@@ -22,4 +22,21 @@ describe('ButtonComponentTwo', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should create button two', () => {
+    const button = fixture.debugElement.nativeElement.querySelector('.btn');
+    expect(button).toBeDefined();
+  })
+  
+  it('should create button two', () => {
+    const button = fixture.debugElement.nativeElement.querySelector('.btn');
+    expect(button).toBeDefined();
+  })
+
+  it('should call emit() in method hideImage()', () => {
+    spyOn(component.eventHideImage, "emit")
+    component.hideImage();
+    fixture.detectChanges();
+    expect(component.eventHideImage.emit).toHaveBeenCalled();
+  })
 });

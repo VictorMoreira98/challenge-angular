@@ -22,4 +22,11 @@ describe('LabelComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should hidden label when receiveBoolImage equal false', () => {
+    component.receiveBoolImage = false;
+    fixture.detectChanges();
+    const label = fixture.debugElement.nativeElement.querySelector('.label-image');
+    expect(label).toBeTruthy();
+  });
 });

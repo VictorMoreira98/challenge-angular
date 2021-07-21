@@ -7,7 +7,7 @@ export class PartOneService {
 
   constructor() { }
 
-  arrNumbersFibonacci = [];
+  arrNumbersFibonacci = [1];
 
   calculateFibonacci(){
     if(this.arrNumbersFibonacci.length == 1){

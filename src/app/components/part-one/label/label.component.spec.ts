@@ -22,4 +22,13 @@ describe('LabelComponentOne', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should defined variable "partOneService" ', () => {
+    expect(component.partOneService).toBeDefined();
+  });
+
+  it('should create label', () => {
+    const button = fixture.debugElement.nativeElement.querySelector('.card-text');
+    expect(button).toBeDefined();
+  })
 });

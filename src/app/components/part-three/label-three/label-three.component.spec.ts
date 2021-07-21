@@ -22,4 +22,10 @@ describe('LabelThreeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
+  it('should defined div number-list', () => {
+    const div = fixture.debugElement.nativeElement.querySelector('.numbers-list');
+    expect(div).toBeDefined();
+  });
 });
