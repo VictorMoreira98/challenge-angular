@@ -1,27 +1,26 @@
-# ChallengeAngular
+# :pushpin: ChallengeAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+O desafio consiste em criar três funcionalidades em uma única página, segue abaixo as funcionalidades:
 
-## Development server
+## :arrow_right: Calculadora Fibonacci
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ao clicar em o botão calcular, o sistema deve ir apresentando a sequência de fibonacci.
 
-## Code scaffolding
+## :arrow_right: ALternar Imagem
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clicar no botão de alternar, deve ocultar a imagem e mostrar a label indicando a imagem ocultada.
 
-## Build
+## :arrow_right: Filtro de Array
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Deve informar no input o valor a ser filtrado e assim mostrar o resultado na label.
 
-## Running unit tests
+### :warning: Executando Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Clone o projeto
+* Execute `npm install`
+* Execute `npm start`
+* Acesse [localhost](http://localhost:4200/)
 
-## Running end-to-end tests
+### :white_check_mark: Testes Unitários
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Execute `ng test` para ver os testes unitários via [Karma](https://karma-runner.github.io).
